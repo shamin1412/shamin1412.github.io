@@ -12,7 +12,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">
-                <img src="cat_logo.png" alt="Cat Logo" class="cat-logo">
+                <img src="cat_icon.webp" alt="Cat Icon" class="cat-logo">
             </a>
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
@@ -108,92 +108,105 @@
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section class="education" id="education">
+    <!-- Education & Experience Combined Section -->
+    <section class="edu-exp-combined" id="education">
         <div class="container">
-            <h2 class="section-title">EDUCATION</h2>
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="education-header">
-                        <img src="uiuc_logo.png" alt="UIUC Logo" class="education-logo-img">
-                        <div class="education-info">
-                            <h3>University of Illinois Urbana-Champaign</h3>
-                            <h4>Gies College of Business</h4>
-                            <p class="degree">Master of Science in Business Analytics (STEM)</p>
-                            <p class="date">August 2024 – May 2025</p>
-                            <p class="gpa">CGPA: 3.88/4.0</p>
+            <h2 class="section-title">EDUCATION & EXPERIENCE</h2>
+            <div class="timeline-combined">
+                <!-- 2024-2025 -->
+                <div class="timeline-row">
+                    <div class="timeline-left">
+                        <div class="education-card-inline">
+                            <img src="uiuc_logo.png" alt="UIUC Logo" class="edu-logo">
+                            <div class="edu-content">
+                                <h3>University of Illinois Urbana-Champaign</h3>
+                                <h4>Gies College of Business</h4>
+                                <p class="degree">Master of Science in Business Analytics (STEM)</p>
+                                <p class="gpa">CGPA: 3.88/4.0</p>
+                                <p class="details"><strong>Concentration:</strong> Information Technology & Control</p>
+                                <p class="details"><strong>Coursework:</strong> Marketing Analytics, Big Data Infrastructures, Enterprise Database Management, Data Storytelling, Business Intelligence, Big Data Analytics in Finance</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="education-details">
-                        <p><strong>Concentration:</strong> Information Technology & Control</p>
-                        <p><strong>Coursework:</strong> Marketing Analytics, Big Data Infrastructures, Enterprise Database Management, Data Storytelling, Business Intelligence, Big Data Analytics in Finance</p>
+                    <div class="timeline-year">
+                        <span class="year-label">2024</span>
+                        <div class="year-line"></div>
+                        <span class="year-label">2025</span>
+                    </div>
+                    <div class="timeline-right">
+                        <!-- Empty for this period -->
                     </div>
                 </div>
-                <div class="education-card">
-                    <div class="education-header">
-                        <img src="mumbai_logo.png" alt="University of Mumbai Logo" class="education-logo-img">
-                        <div class="education-info">
-                            <h3>University of Mumbai</h3>
-                            <p class="degree">Bachelor of Commerce in Accounting & Finance (Honors)</p>
-                            <p class="date">August 2017 – May 2020</p>
-                            <p class="gpa">CGPA: 3.96/4.0</p>
+
+                <!-- 2021-2023 -->
+                <div class="timeline-row">
+                    <div class="timeline-left">
+                        <!-- Empty for this period -->
+                    </div>
+                    <div class="timeline-year">
+                        <span class="year-label">2021</span>
+                        <div class="year-line"></div>
+                        <span class="year-label">2023</span>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="experience-card-inline">
+                            <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="company-logo-inline">
+                            <div class="exp-content">
+                                <h3>Senior Analyst, Product Development</h3>
+                                <h4>Intellimation.ai · Mumbai, India</h4>
+                                <p class="date">November 2021 – October 2023</p>
+                                <ul class="exp-list">
+                                    <li>Led Collateral Management Automation initiative for Barclays, streamlining margin call, interest, and reconciliation workflows using proprietary software which impacted 600+ counterparties and released 8 FTEs</li>
+                                    <li>Defined and configured STP automation logic (rules) within proprietary software, including exception handling and control checks, reducing manual touchpoints by ~50% and improving operational throughput</li>
+                                    <li>Partnered with cross-functional stakeholders across Barclays and Nomura to analyze business needs and deliver data-driven automation solutions across Bonds, FX, OTC Derivatives, and Insurance</li>
+                                    <li>Used SQL (MySQL) to support data operations - analyzing trade data, validating exceptions, and improving reconciliation accuracy; surfaced trends via operational reporting</li>
+                                    <li>Authored and maintained 25+ BRDs/FSDs and data derivation documents translating complex logic into clear documentation for business and engineering</li>
+                                    <li>Supported SIT/UAT in JIRA/Confluence, improving release quality and reducing recurring defects by 25% through rigorous testing</li>
+                                </ul>
+                            </div>
                         </div>
+                        <div class="experience-card-inline" style="margin-top: 1.5rem;">
+                            <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="company-logo-inline">
+                            <div class="exp-content">
+                                <h3>Business Analyst Intern</h3>
+                                <h4>Intellimation.ai · Mumbai, India</h4>
+                                <p class="date">August 2021 – October 2021</p>
+                                <ul class="exp-list">
+                                    <li>Performed exploratory data analysis on trade datasets to identify anomalies and improvement opportunities, contributing to early automation concepts later scaled across banking clients</li>
+                                    <li>Supported requirements gathering and test case design for trade capture and reconciliation modules to align business objectives with technical functionality</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2017-2020 -->
+                <div class="timeline-row">
+                    <div class="timeline-left">
+                        <div class="education-card-inline">
+                            <img src="mumbai_logo.png" alt="University of Mumbai Logo" class="edu-logo">
+                            <div class="edu-content">
+                                <h3>University of Mumbai</h3>
+                                <p class="degree">Bachelor of Commerce in Accounting & Finance (Honors)</p>
+                                <p class="gpa">CGPA: 3.96/4.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-year">
+                        <span class="year-label">2017</span>
+                        <div class="year-line"></div>
+                        <span class="year-label">2020</span>
+                    </div>
+                    <div class="timeline-right">
+                        <!-- Empty for this period -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <h2 class="section-title">EXPERIENCE</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="experience-header">
-                            <div class="exp-title-section">
-                                <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="company-logo">
-                                <div>
-                                    <h3>Senior Analyst, Product Development</h3>
-                                    <h4>Intellimation.ai · Mumbai, India</h4>
-                                </div>
-                            </div>
-                            <span class="date">November 2021 – October 2023</span>
-                        </div>
-                        <ul class="experience-list">
-                            <li>Led Collateral Management Automation initiative for Barclays, streamlining margin call, interest, and reconciliation workflows using proprietary software which impacted 600+ counterparties and released 8 FTEs</li>
-                            <li>Defined and configured STP automation logic (rules) within proprietary software, including exception handling and control checks, reducing manual touchpoints by ~50% and improving operational throughput</li>
-                            <li>Partnered with cross-functional stakeholders across Barclays and Nomura to analyze business needs and deliver data-driven automation solutions across Bonds, FX, OTC Derivatives, and Insurance</li>
-                            <li>Used SQL (MySQL) to support data operations - analyzing trade data, validating exceptions, and improving reconciliation accuracy; surfaced trends via operational reporting</li>
-                            <li>Authored and maintained 25+ BRDs/FSDs and data derivation documents translating complex logic into clear documentation for business and engineering</li>
-                            <li>Supported SIT/UAT in JIRA/Confluence, improving release quality and reducing recurring defects by 25% through rigorous testing</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="experience-header">
-                            <div class="exp-title-section">
-                                <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="company-logo">
-                                <div>
-                                    <h3>Business Analyst Intern</h3>
-                                    <h4>Intellimation.ai · Mumbai, India</h4>
-                                </div>
-                            </div>
-                            <span class="date">August 2021 – October 2021</span>
-                        </div>
-                        <ul class="experience-list">
-                            <li>Performed exploratory data analysis on trade datasets to identify anomalies and improvement opportunities, contributing to early automation concepts later scaled across banking clients</li>
-                            <li>Supported requirements gathering and test case design for trade capture and reconciliation modules to align business objectives with technical functionality</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Separate Experience anchor for navigation -->
+    <div id="experience" style="position: relative; top: -80px;"></div>
 
     <!-- Projects Section -->
     <section class="projects" id="projects">
