@@ -458,18 +458,12 @@ section {
     width: 120px;
     height: 120px;
     object-fit: contain;
-    border-radius: 12px;
-    padding: 1rem;
-    background: #ffffff;
     flex-shrink: 0;
-    border: 2px solid var(--accent-primary);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s ease;
 }
 
 .edu-logo:hover {
     transform: scale(1.08);
-    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.4);
 }
 
 .education-card-inline,
@@ -561,18 +555,12 @@ section {
     width: 80px;
     height: 80px;
     object-fit: contain;
-    border-radius: 8px;
-    padding: 0.8rem;
-    background: #ffffff;
     flex-shrink: 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 2px solid var(--accent-primary);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s ease;
 }
 
 .company-logo-inline:hover {
     transform: scale(1.1);
-    box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
 }
 
 .exp-content {
