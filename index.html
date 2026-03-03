@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shamin Shaikh - Business & Data Analytics</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -15,10 +15,11 @@
                 <img src="cat_icon.webp" alt="Cat Icon" class="cat-logo">
             </a>
             <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -28,11 +29,14 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-container">
-            <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Shamin Shaikh</h1>
+                <p class="hero-title">Business & Data Analyst | Process Automation Specialist</p>
+                <a href="ShaminShaikh_Resume.pdf" class="btn-primary" download>Download Resume</a>
+            </div>
+            <div class="hero-image-wrapper">
                 <img src="profile.jpg" alt="Shamin Shaikh" class="hero-image">
-                <h1 class="hero-title">Hi, I'm Shamin Shaikh</h1>
-                <p class="hero-subtitle">Business & Data Analyst | Process Automation Specialist</p>
-                <a href="#about" class="cta-button">Explore More</a>
             </div>
         </div>
     </section>
@@ -40,19 +44,102 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">ABOUT ME</h2>
             <div class="about-content">
-                <p>Hi, I'm a <strong>business and data analyst</strong> who loves turning messy data into clear answers that actually help people make decisions. I recently graduated with my Master of Science in Business Analytics from the University of Illinois Urbana-Champaign, and I've spent the last 3+ years working at the intersection of finance, data operations, and process automation.</p>
-                
-                <p>At <strong>Intellimation.ai</strong>, I worked on automation initiatives for tier-1 banking clients, helping bridge the gap between business needs and technical solutions. My days involved writing business requirements, collaborating with stakeholders and delivery teams, and building data-driven solutions that streamlined operations and reduced manual work.</p>
-                
-                <p>I work mostly with SQL, R, and various BI tools to build solutions that are practical, measurable, and (hopefully) make someone's job a little easier. I'm drawn to projects where analytics can genuinely improve how things run—whether that's through automation, predictive modeling, or just good old-fashioned data cleanup.</p>
-                
-                <p>When I'm not buried in data, you'll find me in the kitchen or at the gym, or trying (and often failing) at knitting. I also share my home with eight cats, who are excellent at debugging by sitting on my keyboard.</p>
-                
-                <div class="about-actions">
-                    <a href="ShaminShaikh_Resume.pdf" class="btn-primary" download>Download Resume</a>
-                    <a href="http://linkedin.com/in/shamin-shaikh" class="btn-secondary" target="_blank">Connect on LinkedIn</a>
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Shamin Shaikh" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Hi, I'm a <strong>business and data analyst</strong> who loves turning messy data into clear answers that actually help people make decisions. I recently graduated with my Master of Science in Business Analytics from the University of Illinois Urbana-Champaign, and I've spent the last 3+ years working at the intersection of finance, data operations, and process automation.</p>
+                    
+                    <p>At <strong>Intellimation.ai</strong>, I worked on automation initiatives for tier-1 banking clients, helping bridge the gap between business needs and technical solutions. My days involved writing business requirements, collaborating with stakeholders and delivery teams, and building data-driven solutions that streamlined operations and reduced manual work.</p>
+                    
+                    <p>I work mostly with SQL, R, and various BI tools to build solutions that are practical, measurable, and (hopefully) make someone's job a little easier. I'm drawn to projects where analytics can genuinely improve how things run—whether that's through automation, predictive modeling, or just good old-fashioned data cleanup.</p>
+                    
+                    <p>When I'm not buried in data, you'll find me in the kitchen or at the gym, or trying (and often failing) at knitting. I also share my home with eight cats, who are excellent at debugging by sitting on my keyboard.</p>
+                    
+                    <div class="about-links">
+                        <a href="ShaminShaikh_Resume.pdf" class="btn-secondary" download>Download CV</a>
+                        <a href="http://linkedin.com/in/shamin-shaikh" class="btn-outline" target="_blank">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title-center">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="uiuc_logo.png" alt="UIUC Logo" class="timeline-logo">
+                            <div>
+                                <h3>Master of Science in Business Analytics</h3>
+                                <h4>University of Illinois Urbana-Champaign</h4>
+                            </div>
+                        </div>
+                        <p class="timeline-details"><strong>GPA:</strong> 3.88/4.0 | <strong>Concentration:</strong> Information Technology & Control</p>
+                        <p class="timeline-text">Coursework: Marketing Analytics, Big Data Infrastructures, Enterprise Database Management, Data Storytelling, Business Intelligence, Big Data Analytics in Finance</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2020</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="mumbai_logo.jpg" alt="University of Mumbai Logo" class="timeline-logo">
+                            <div>
+                                <h3>Bachelor of Commerce in Accounting & Finance (Honors)</h3>
+                                <h4>University of Mumbai</h4>
+                            </div>
+                        </div>
+                        <p class="timeline-details"><strong>GPA:</strong> 3.96/4.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title-center">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Nov 2021 - Oct 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="timeline-logo">
+                            <div>
+                                <h3>Senior Analyst, Product Development</h3>
+                                <h4>Intellimation.ai</h4>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Led collateral automation for Barclays, streamlining margin, interest & reconciliation for 600+ counterparties and freeing 8 FTEs</li>
+                            <li>Built STP rules + exception controls, cutting manual touchpoints by ~50% and improving throughput</li>
+                            <li>Delivered end-to-end implementation: SQL-based data validation + reporting, 15+ BRDs/FSDs, and SIT/UAT which led to reduction of recurring defects by 25%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2021 - Oct 2021</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="timeline-logo">
+                            <div>
+                                <h3>Business Analyst Intern</h3>
+                                <h4>Intellimation.ai</h4>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Performed EDA on trade datasets to identify anomalies and improvement opportunities, contributing to early automation concepts later scaled across banking clients</li>
+                            <li>Supported requirements gathering and test case design for trade capture and reconciliation modules</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,192 +148,94 @@
     <!-- Skills Section -->
     <section class="skills" id="skills">
         <div class="container">
-            <h2 class="section-title">SKILLS</h2>
+            <h2 class="section-title-center">My Skills</h2>
+            <p class="section-subtitle">I possess a diverse skill set that spans technical analysis, business operations, and industry expertise. I continuously strive to enhance my capabilities and deliver impactful results.</p>
             <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">💻</div>
-                    <h3>Technical Skills</h3>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Technical Skills</h3>
                     <div class="skill-tags">
-                        <span class="tag">SQL (MySQL)</span>
-                        <span class="tag">R</span>
-                        <span class="tag">SAS</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">Tableau</span>
-                        <span class="tag">Power BI</span>
-                        <span class="tag">Excel (Advanced)</span>
-                        <span class="tag">AWS</span>
-                        <span class="tag">Git</span>
+                        <span class="skill-tag">SQL (MySQL)</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SAS</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Excel (Advanced)</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Git</span>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">📊</div>
-                    <h3>Functional Skills</h3>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Functional Skills</h3>
                     <div class="skill-tags">
-                        <span class="tag">Requirements Gathering</span>
-                        <span class="tag">BRD/FSD Documentation</span>
-                        <span class="tag">Process Mapping</span>
-                        <span class="tag">SIT/UAT Testing</span>
-                        <span class="tag">Agile/Scrum</span>
-                        <span class="tag">JIRA</span>
-                        <span class="tag">Confluence</span>
-                        <span class="tag">Figma</span>
+                        <span class="skill-tag">Requirements Gathering</span>
+                        <span class="skill-tag">BRD/FSD Documentation</span>
+                        <span class="skill-tag">Process Mapping</span>
+                        <span class="skill-tag">SIT/UAT Testing</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">Confluence</span>
+                        <span class="skill-tag">Figma</span>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🏦</div>
-                    <h3>Industry Expertise</h3>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Industry Expertise</h3>
                     <div class="skill-tags">
-                        <span class="tag">Collateral Management</span>
-                        <span class="tag">Trade Reconciliation</span>
-                        <span class="tag">Banking Operations</span>
-                        <span class="tag">Risk & Controls</span>
-                        <span class="tag">Process Automation</span>
-                        <span class="tag">Financial Services</span>
+                        <span class="skill-tag">Collateral Management</span>
+                        <span class="skill-tag">Trade Reconciliation</span>
+                        <span class="skill-tag">Banking Operations</span>
+                        <span class="skill-tag">Risk & Controls</span>
+                        <span class="skill-tag">Process Automation</span>
+                        <span class="skill-tag">Financial Services</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Education & Experience Combined Section -->
-    <section class="edu-exp-combined" id="education">
-        <div class="container">
-            <h2 class="section-title">EDUCATION & EXPERIENCE</h2>
-            <div class="timeline-combined">
-                <!-- 2024-2025 -->
-                <div class="timeline-row">
-                    <div class="timeline-left">
-                        <div class="education-card-inline">
-                            <img src="uiuc_logo.png" alt="UIUC Logo" class="edu-logo">
-                            <div class="edu-content">
-                                <h3>University of Illinois Urbana-Champaign</h3>
-                                <h4>Gies College of Business</h4>
-                                <p class="degree">Master of Science in Business Analytics (STEM)</p>
-                                <p class="gpa">GPA: 3.88/4.0</p>
-                                <p class="details"><strong>Concentration:</strong> Information Technology & Control</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-year">
-                        <span class="year-label">2024</span>
-                        <div class="year-line"></div>
-                        <span class="year-label">2025</span>
-                    </div>
-                    <div class="timeline-right">
-                        <!-- Empty for this period -->
-                    </div>
-                </div>
-
-                <!-- 2021-2023 -->
-                <div class="timeline-row">
-                    <div class="timeline-left">
-                        <!-- Empty for this period -->
-                    </div>
-                    <div class="timeline-year">
-                        <span class="year-label">2021</span>
-                        <div class="year-line"></div>
-                        <span class="year-label">2023</span>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="experience-card-inline">
-                            <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="company-logo-inline">
-                            <div class="exp-content">
-                                <h3>Senior Analyst, Product Development</h3>
-                                <h4>Intellimation.ai · Mumbai, India</h4>
-                                <p class="date">November 2021 – October 2023</p>
-                                <ul class="exp-list">
-                                    <li>Led collateral automation for Barclays, streamlining margin, interest & reconciliation for 600+ counterparties and freeing 8 FTEs</li>
-                                    <li>Built STP rules + exception controls, cutting manual touchpoints by ~50% and improving throughput</li>
-                                    <li>Delivered end-to-end implementation: SQL-based data validation + reporting, 15+ BRDs/FSDs, and SIT/UAT which led to reduction of recurring defects by 25%</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="experience-card-inline" style="margin-top: 1.5rem;">
-                            <img src="intellimation-logo.svg" alt="Intellimation.ai Logo" class="company-logo-inline">
-                            <div class="exp-content">
-                                <h3>Business Analyst Intern</h3>
-                                <h4>Intellimation.ai · Mumbai, India</h4>
-                                <p class="date">August 2021 – October 2021</p>
-                                <ul class="exp-list">
-                                    <li>Performed EDA on trade datasets to identify anomalies and improvement opportunities, contributing to early automation concepts later scaled across banking clients</li>
-                                    <li>Supported requirements gathering and test case design for trade capture and reconciliation modules</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2017-2020 -->
-                <div class="timeline-row">
-                    <div class="timeline-left">
-                        <div class="education-card-inline">
-                            <img src="mumbai_logo.jpg" alt="University of Mumbai Logo" class="edu-logo">
-                            <div class="edu-content">
-                                <h3>University of Mumbai</h3>
-                                <p class="degree">Bachelor of Commerce in Accounting & Finance (Honors)</p>
-                                <p class="gpa">GPA: 3.96/4.0</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-year">
-                        <span class="year-label">2017</span>
-                        <div class="year-line"></div>
-                        <span class="year-label">2020</span>
-                    </div>
-                    <div class="timeline-right">
-                        <!-- Empty for this period -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Separate Experience anchor for navigation -->
-    <div id="experience" style="position: relative; top: -80px;"></div>
 
     <!-- Projects Section -->
     <section class="projects" id="projects">
         <div class="container">
-            <h2 class="section-title">PROJECTS</h2>
+            <h2 class="section-title-center">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Advanced Property Valuation using Machine Learning</h3>
-                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-badge">Machine Learning</span>
                     </div>
                     <p class="project-description">Built ML valuation models (XGBoost/Random Forest/Lasso) for 10,000+ properties in Cook County, IL; achieved R² 0.867 (MSE 12.66). Implemented feature engineering, hyperparameter tuning, and model evaluation to predict housing prices with high accuracy.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">XGBoost</span>
-                        <span class="tech-tag">Random Forest</span>
-                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">XGBoost</span>
+                        <span class="tech-badge">Random Forest</span>
+                        <span class="tech-badge">Scikit-learn</span>
                     </div>
                     <a href="https://github.com/shamin1412/cook-county-housing-prices" class="project-link" target="_blank">View Project →</a>
                 </div>
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Super Bowl Ads: Impact on Stock Performance & Engagement</h3>
-                        <span class="project-tag">Marketing Analytics</span>
+                        <span class="project-badge">Marketing Analytics</span>
                     </div>
-                    <p class="project-description">Analyzed relationships between Super Bowl advertising and short-term stock movement and engagement outcomes. Compared pre/post windows and ad attributes to identify patterns in market reaction and audience response; communicated findings via concise presentations.</p>
+                    <p class="project-description">Analyzed relationships between Super Bowl advertising and short-term stock movement and engagement outcomes. Compared pre/post windows and ad attributes to identify patterns in market reaction and audience response.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">R</span>
-                        <span class="tech-tag">Statistical Analysis</span>
-                        <span class="tech-tag">Data Visualization</span>
+                        <span class="tech-badge">R</span>
+                        <span class="tech-badge">Statistical Analysis</span>
+                        <span class="tech-badge">Data Visualization</span>
                     </div>
                     <a href="https://github.com/shamin1412/super-bowl-ad-analysis" class="project-link" target="_blank">View Project →</a>
                 </div>
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Macroeconomic Impact of Oil Price Volatility</h3>
-                        <span class="project-tag">Financial Analytics</span>
+                        <span class="project-badge">Financial Analytics</span>
                     </div>
                     <p class="project-description">Analyzed 2021–2024 airline financial ratios using SAS/WRDS; applied correlation, multivariate regression, time-series modeling, and VaR to quantify risk and performance impacts on North American airline financials.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">SAS</span>
-                        <span class="tech-tag">WRDS</span>
-                        <span class="tech-tag">Time Series</span>
-                        <span class="tech-tag">Regression</span>
+                        <span class="tech-badge">SAS</span>
+                        <span class="tech-badge">WRDS</span>
+                        <span class="tech-badge">Time Series</span>
+                        <span class="tech-badge">Regression</span>
                     </div>
                 </div>
             </div>
@@ -256,21 +245,35 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2 class="section-title">GET IN TOUCH</h2>
+            <h2 class="section-title-center">Get In Touch</h2>
             <p class="contact-subtitle">Let's connect—always open to work chats (and especially cat chats) 🐱</p>
-            <div class="contact-info">
-                <a href="/cdn-cgi/l/email-protection#aeddc6cfc3c7c0c09f9eeec9c3cfc7c280cdc1c3" class="contact-item">
-                    <span class="contact-icon">✉️</span>
-                    <span>Email Me</span>
-                </a>
-                <a href="http://linkedin.com/in/shamin-shaikh" class="contact-item" target="_blank">
-                    <svg class="linkedin-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
-                    </svg>
-                    <span>LinkedIn</span>
-                </a>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Urbana, Illinois</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:shaminn10@gmail.com">shaminn10@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="http://linkedin.com/in/shamin-shaikh" target="_blank">Connect with me</a></p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- F
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Shamin Shaikh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
